@@ -1,7 +1,12 @@
 (() => {
-  /** URLをエスケープして変換されないようにする*/
+  /** urlをエスケープして変換されないようにする*/
   const _escapeUrlExp = (text) => {
-    const exp = /https?:\/\/[\w:%#&~=\/\$\?\(\)\.\+\-]+/g
+    const exp = /(?<!")https?:\/\/[\w:%#&~=\/\$\?\(\)\.\+\-]+(?!")/g
+    return text.replace(exp, '{$&}')
+  }
+  /** html attributeをエスケープして変換されないようにする*/
+  const _escapeAttrExp = (text) => {
+    const exp = /(?<=(?:src|alt|href)=")[^"]+?(?=")/g
     return text.replace(exp, '{$&}')
   }
   /** エスケープされた文字列を検索する */
@@ -156,6 +161,7 @@
 
     let text = comment.data.comment
     text = _escapeUrlExp(text)
+    text = _escapeAttrExp(text)
     escs = _searchEscExp(text)
     text = _replaceEscExp(text, escs)
 
