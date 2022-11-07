@@ -47,6 +47,7 @@ const app = Vue.createApp({
       callback: (comments) => {
         const newCache = new Map()
         comments.forEach(comment => {
+          comment4mj(comment)
           const index = cache.get(comment.data.id)
           if (isNaN(index)) {
             comment.commentIndex = commentIndex
@@ -65,5 +66,5 @@ const app = Vue.createApp({
   },
 })
 OneSDK.ready().then(() => {
-  app.mount("#container");
+  app.mount("#container")
 })

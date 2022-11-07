@@ -1,0 +1,29 @@
+.tile {
+	width: 30px;
+	height: 42px;
+  vertical-align: text-bottom;
+}
+
+.tenbo {
+	width: 156px;
+	height: 12px;
+}
+
+.face,
+.back {
+	filter: url(#inset-shadow);
+}
+
+.face {
+	fill: #ffffff;
+}
+
+.back {
+	fill: #ffba1e;
+}
+
+.rotate {
+	width: 42px;
+	height: 42px;
+	transform: rotate(-90deg) translate(-8px, 0);
+}
