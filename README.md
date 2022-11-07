@@ -6,7 +6,7 @@
 ![](https://img.shields.io/github/license/yuarasino/onecomme-plugin-formj)
 ![](https://img.shields.io/youtube/channel/views/UCxUnuWTQGLw5dO_dl0oqrrg?style=social)
 
-麻雀配信向けわんコメ拡張
+麻雀配信向けわんコメプラグイン
 
 ![](./docs/images/formj.png)
 
@@ -22,11 +22,10 @@ mpsz表記(半角・全角)と東南西北白發中の表記に対応してま�
 わんコメ v4.0+ [Download](https://onecomme.com/)
 
 
-## Contribution
+## Download
 
-ぜひ不具合報告や改善要望をしてもらえると嬉しいです！  
-GitHubのIssueかTwitterのDMまでお願いします
-
+わんコメプラグイン「formj」 [formj-v1.0.0.zip](https://github.com/yuarasino/onecomme-plugin-formj/releases/download/v1.0.0/formj-v1.0.0.zip)  
+プラグイン導入済みテンプレート「basic4mj」 [basic4mj-v1.0.0.zip](https://github.com/yuarasino/onecomme-plugin-formj/releases/download/v1.0.0/basic4mj-v1.0.0.zip)
 
 ## Usage: basicテンプレートへの導入方法
 
@@ -68,6 +67,24 @@ OBSのカスタムCSSに以下のCSSを追加してください
   vertical-align: -12px;  /* 牌の上下の位置 */
 }
 ```
+
+### 【対応検討中】採譜記号表記(一二三①②③１２３)の表記には対応していますか
+
+今のところ対応していません  
+要望が多ければ対応したいと思っています  
+ただ、麻雀役の名前や配信者の名前などに漢数字があることが多く、それが全部変換されちゃうと見づらいので、どうしようかなと思ってます
+
+### 【対応困難】「東京」「南入」などが変換されてしまう
+
+仕様です  
+真面目に対応しようとすると麻雀専用に辞書を作って形態素解析したりしないといけないので難しいです……(例えば前後に他の漢字が続かないっていうルールだと東切りとか変換されなかったり)  
+ギリギリ読めるからいいやって感じで使ってもらえるとありがたいです
+
+
+## Contribution
+
+ぜひ不具合報告や改善要望をしてもらえると嬉しいです！  
+GitHubのIssueかTwitterのDMまでお願いします
 
 
 ## Author
