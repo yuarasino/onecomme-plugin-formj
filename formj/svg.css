@@ -2,6 +2,12 @@
 	width: 30px;
 	height: 42px;
   vertical-align: text-bottom;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.tile + .tile {
+  margin-left: -4px;
 }
 
 .tenbo {

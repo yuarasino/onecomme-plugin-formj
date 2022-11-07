@@ -68,6 +68,12 @@ OBSのカスタムCSSに以下のCSSを追加してください
   width: 30px;  /* 牌の横幅 */
   height: 42px;  /* 牌の縦幅 */
   vertical-align: -12px;  /* 牌の上下の位置 */
+  margin-left: 4px;  /* 牌と前の文字との間の間隔 */
+  margin-right: 4px;  /* 牌と後の文字との間の間隔 */
+}
+
+.tile + .tile {
+  margin-left: -4px;  /* 牌が連続するときに前の牌との間に間隔を空けないようにする */
 }
 ```
 

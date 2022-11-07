@@ -150,6 +150,20 @@
     return `<svg class="tile"><use class="face" xlink:href="./formj/tiles.svg#${id}"></use></svg>`
   }
 
+  /** テキストノードをspanで囲んで、牌と前後の文字との間に間隔が空くようにする */
+  const _wrapTextNode = (text) => {
+    const parent = document.createElement('div')
+    parent.innerHTML = text
+    parent.childNodes.forEach((child) => {
+      if (child.nodeType === Node.TEXT_NODE) {
+        const node = document.createElement('span')
+        node.innerText = child.textContent
+        parent.replaceChild(node, child)
+      }
+    })
+    return parent.innerHTML
+  }
+
 
   /** 麻雀牌っぽい表現をsvgに置き換える */
   window.comment4mj = (comment) => {
@@ -178,6 +192,7 @@
     text = _replaceEmSymbolZihaiExp(text)
 
     text = _revertEscExp(text, escs)
+    text = _wrapTextNode(text)
     comment.data.comment = text
     comment.data.replaced = true
     return comment
