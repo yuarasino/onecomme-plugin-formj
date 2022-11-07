@@ -24,9 +24,9 @@
 
 ## Download
 
-わんコメプラグイン「formj」 [formj-v1.0.0.zip](https://github.com/yuarasino/onecomme-plugin-formj/releases/download/v1.0.0/formj-v1.0.0.zip)  
+わんコメプラグイン「formj」 [formj-v1.1.0.zip](https://github.com/yuarasino/onecomme-plugin-formj/releases/download/v1.1.0/formj-v1.1.0.zip)  
 プラグイン導入済みテンプレート「basic4mj」 
-[basic4mj-v1.0.0.zip](https://github.com/yuarasino/onecomme-plugin-formj/releases/download/v1.0.0/basic4mj-v1.0.0.zip)
+[basic4mj-v1.1.0.zip](https://github.com/yuarasino/onecomme-plugin-formj/releases/download/v1.1.0/basic4mj-v1.1.0.zip)
 
 
 ## Usage: 「basic4mj」テンプレートの導入方法
@@ -81,7 +81,7 @@ OBSのカスタムCSSに以下のCSSを追加してください
 
 今のところ対応していません  
 要望が多ければ対応したいと思っています  
-ただ、麻雀役の名前や配信者の名前などに漢数字があることが多く、それが全部変換されちゃうと見づらいので、どうしようかなと思ってます
+ただ、麻雀役の名前や配信者の名前などに漢数字があることが多く、それが全部変換されちゃうと見づらいのでどうしようかなと思ってます
 
 ### 【対応困難】「東京」「南入」などが変換されてしまう
 
