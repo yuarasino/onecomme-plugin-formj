@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="referrer" content="no-referrer" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body hidden>
+    <div id="container" class="container">
+      <transition-group class="comments" name="comment" tag="div">
+        <div
+          v-for="(comment, index) in comments"
+          :class="getClassName(comment)"
+          :key="comment.data.id"
+          :style="getStyle(comment)"
+          :data-service="comment.service"
+          :data-user="comment.data.name"
+          :data-gift="comment.data.hasGift"
+          :data-owner="comment.data.isOwner"
+          :data-moderator="comment.data.isModerator"
+          :data-member="comment.data.isMember"
+          :data-is-new="comment.data.isFirstTime"
+          :data-service-name="comment.name"
+          :data-service-id="comment.id"
+        >
+          <div class="avatar">
+            <img alt="" v-if="comment.data.profileImage" :src="comment.data.profileImage" />
+          </div>
+          <div class="comment-block">
+            <div class="name">
+              {{comment.data.displayName}}
+              <div
+                class="badge"
+                v-for="(badge, index) in comment.data.badges"
+                :key="index"
+              >
+                <img
+                  v-if="badge.url"
+                  :alt="badge.label"
+                  :src="badge.url"
+                  :title="badge.label"
+                />
+              </div>
+            </div>
+            <div class="comment-body">
+              <template v-if="comment.service === 'youtube'">
+                <div v-if="comment.data.paidText" class="paid-text">
+                  <strong>{{comment.data.paidText}}</strong>
+                </div>
+              </template>
+              <div class="comment-text" v-html="comment.data.comment"></div>
+            </div>
+          </div>
+        </div>
+      </transition-group>
+    </div>
+    <script src="../__origin/js/vue.min.js"></script>
+    <script src="../__origin/js/onesdk.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
