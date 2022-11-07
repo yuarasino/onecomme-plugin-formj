@@ -17,7 +17,7 @@
 わんコメのほとんどのテンプレートに導入できます
 
 
-## Requirements
+## Requirement
 
 わんコメ v4.0+ [Download](https://onecomme.com/)
 
@@ -25,21 +25,24 @@
 ## Download
 
 わんコメプラグイン「formj」 [formj-v1.0.0.zip](https://github.com/yuarasino/onecomme-plugin-formj/releases/download/v1.0.0/formj-v1.0.0.zip)  
-プラグイン導入済みテンプレート「basic4mj」 [basic4mj-v1.0.0.zip](https://github.com/yuarasino/onecomme-plugin-formj/releases/download/v1.0.0/basic4mj-v1.0.0.zip)
-
-## Usage: basicテンプレートへの導入方法
-
-わんコメを使ったことがない人やbasicテンプレートを使っている人向けのformjの導入方法です  
-ほかのテンプレート(yurucampなど)を使っている人は、Advancedの項目を見てください
-
-[Usage: basicテンプレートへの導入方法](./docs/usage.md)
+プラグイン導入済みテンプレート「basic4mj」 
+[basic4mj-v1.0.0.zip](https://github.com/yuarasino/onecomme-plugin-formj/releases/download/v1.0.0/basic4mj-v1.0.0.zip)
 
 
-## Advanced: ほかのテンプレートへの導入方法
+## Usage: 「basic4mj」テンプレートの導入方法
 
-ほかのテンプレート(yurucampなど)を使っている人向けのformjの導入方法です
+わんコメを使ったことがない人やbasicテンプレートを使っている人向けの「basic4mj」導入方法です  
+わんコメデフォルトの「basic」テンプレートに「formj」プラグインを導入したテンプレートで、フォルダをコピーするだけですぐに使い始めることができます  
+他のテンプレート(yurucampなど)を使っている人は、[Advanced](./docs/advanced.md)の項目を見てください
 
-[Advanced: ほかのテンプレートへの導入方法](./docs/advanced.md)
+[Usage: 「basic4mj」テンプレートの導入方法](./docs/usage.md)
+
+
+## Advanced: 他のテンプレートへの「formj」導入方法
+
+他のテンプレート(yurucampなど)を使っている人向けの「formj」導入方法です
+
+[Advanced: ほかのテンプレートへの「formj」導入方法](./docs/advanced.md)
 
 ## FAQ
 
