@@ -40,7 +40,7 @@
 `const index = cache.get(comment.data.id)` の上に、以下の1行を足す
 
 ```js
-comment4mj(comment)
+comment = comment4mj(comment)
 ```
 
 ![](./images/advanced5.png)

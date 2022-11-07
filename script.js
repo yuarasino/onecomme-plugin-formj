@@ -47,7 +47,7 @@ const app = Vue.createApp({
       callback: (comments) => {
         const newCache = new Map()
         comments.forEach(comment => {
-          comment4mj(comment)
+          comment = comment4mj(comment)
           const index = cache.get(comment.data.id)
           if (isNaN(index)) {
             comment.commentIndex = commentIndex
