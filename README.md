@@ -6,8 +6,6 @@
 ![](https://img.shields.io/github/license/yuarasino/onecomme-plugin-formj)
 ![](https://img.shields.io/youtube/channel/views/UCxUnuWTQGLw5dO_dl0oqrrg?style=social)
 
-麻雀配信向けわんコメプラグイン
-
 ![](./docs/images/formj.png)
 
 
@@ -105,3 +103,10 @@ GitHubのIssueかTwitterのDMまでお願いします
 ## License
 
 GPL [License](./LICENSE)
+
+
+## Example
+
+![](./docs/images/example1.png)  
+![](./docs/images/example2.png)  
+![](./docs/images/example3.png)
