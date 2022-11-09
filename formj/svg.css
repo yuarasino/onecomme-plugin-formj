@@ -1,6 +1,8 @@
+/** https://github.com/WarL0ckNet/tile-art */
+
 .tile {
-	width: 30px;
-	height: 42px;
+  width: 30px;
+  height: 42px;
   vertical-align: text-bottom;
   margin-left: 4px;
   margin-right: 4px;
@@ -11,25 +13,25 @@
 }
 
 .tenbo {
-	width: 156px;
-	height: 12px;
+  width: 156px;
+  height: 12px;
 }
 
 .face,
 .back {
-	filter: url(#inset-shadow);
+  filter: url(#inset-shadow);
 }
 
 .face {
-	fill: #ffffff;
+  fill: #ffffff;
 }
 
 .back {
-	fill: #ffba1e;
+  fill: #ffba1e;
 }
 
 .rotate {
-	width: 42px;
-	height: 42px;
-	transform: rotate(-90deg) translate(-8px, 0);
+  width: 42px;
+  height: 42px;
+  transform: rotate(-90deg) translate(-8px, 0);
 }

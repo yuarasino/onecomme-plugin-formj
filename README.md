@@ -22,9 +22,9 @@
 
 ## Download
 
-わんコメプラグイン「formj」 [formj-v1.1.0.zip](https://github.com/yuarasino/onecomme-plugin-formj/releases/download/v1.1.0/formj-v1.1.0.zip)  
+わんコメプラグイン「formj」 [formj-v1.1.1.zip](https://github.com/yuarasino/onecomme-plugin-formj/releases/download/v1.1.1/formj-v1.1.1.zip)  
 プラグイン導入済みテンプレート「basic4mj」 
-[basic4mj-v1.1.0.zip](https://github.com/yuarasino/onecomme-plugin-formj/releases/download/v1.1.0/basic4mj-v1.1.0.zip)
+[basic4mj-v1.1.1.zip](https://github.com/yuarasino/onecomme-plugin-formj/releases/download/v1.1.1/basic4mj-v1.1.1.zip)
 
 
 ## Usage: 「basic4mj」テンプレートの導入方法
@@ -47,10 +47,10 @@
 ### どの表記に対応していますか
 
 mpsz表記(半角・全角)と東南西北白發中の表記に対応してます  
-mpsz(半角)表記例: 1p、123p、12233m123p123s44zツモ1m  
-mpsz(全角)表記例: １ｐ、１２３ｐ、１２２３３ｍ１２３ｐ１２３ｓ４４ｚツモ１ｍ  
-字牌表記例: 東、白發中  
-赤ドラ表記例: 0m、r5m、赤5m、赤５ｍ
+mpsz(半角)表記例: 1p、123p、258-36p、12233m123p123s44zツモ1m  
+mpsz(全角)表記例: １ｐ、１２３ｐ、２５８－３６ｐ、１２２３３ｍ１２３ｐ１２３ｓ４４ｚツモ１ｍ  
+字牌表記例: 東、発、白發中  
+赤ドラ表記例: 0m、r5m、赤5m、０ｍ、ｒ５ｍ、赤５ｍ
 
 ### フレンドコードなどに「1p」などが入ってしまって変換されたくない
 
@@ -75,7 +75,7 @@ OBSのカスタムCSSに以下のCSSを追加してください
 }
 ```
 
-### 【対応検討中】採譜記号表記(一二三①②③１２３)の表記には対応していますか
+### 【対応検討中】採譜記号表記(一二三①②③１２３)には対応していますか
 
 今のところ対応していません  
 要望が多ければ対応したいと思っています  
@@ -102,8 +102,11 @@ GitHubのIssueかTwitterのDMまでお願いします
 
 ## License
 
-GPL [License](./LICENSE)
+GPL-3.0 [License](./LICENSE)
 
+This repository contains the following third-party resources: 
+
+- https://github.com/WarL0ckNet/tile-art licensed under GPL-3.0
 
 ## Example
 
