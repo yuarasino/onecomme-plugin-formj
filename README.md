@@ -17,8 +17,8 @@
 
 ## Requirement
 
-わんコメ v4.0+ [Download](https://onecomme.com/)
-
+わんコメ v4.0+ [Download](https://onecomme.com/)  
+**v3.xを使っている人はアップデートをお願いします**
 
 ## Download
 
@@ -33,14 +33,14 @@
 わんコメデフォルトの「basic」テンプレートに「formj」プラグインを導入したテンプレートで、フォルダをコピーするだけですぐに使い始めることができます  
 他のテンプレート(yurucampなど)を使っている人は、[Advanced](./docs/advanced.md)の項目を見てください
 
-[Usage: 「basic4mj」テンプレートの導入方法](./docs/usage.md)
+手順: [Usage: 「basic4mj」テンプレートの導入方法](./docs/usage.md)
 
 
 ## Advanced: 他のテンプレートへの「formj」導入方法
 
 他のテンプレート(yurucampなど)を使っている人向けの「formj」導入方法です
 
-[Advanced: ほかのテンプレートへの「formj」導入方法](./docs/advanced.md)
+手順: [Advanced: ほかのテンプレートへの「formj」導入方法](./docs/advanced.md)
 
 ## FAQ
 
