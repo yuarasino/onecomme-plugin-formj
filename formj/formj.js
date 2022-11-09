@@ -31,7 +31,7 @@
 
   /** mpsz表記(半角)の萬子をsvgに置き換える */
   const _replaceEnMpszManzuExp = (text) => {
-    const exp = /(?:[0-9]|r5|赤5)+m(?![a-qs-z])/g
+    const exp = /(?:[0-9\-]|r5|赤5)+m(?![a-qs-z])/g
     text = text.replace(exp, (match) => {
       match = match.replace(/m/g, '')
       match = match.replace(/0|r5|赤5/g, '0')
@@ -44,7 +44,7 @@
   }
   /** mpsz表記(半角)の筒子をsvgに置き換える */
   const _replaceEnMpszPinzuExp = (text) => {
-    const exp = /(?:[0-9]|r5|赤5)+p(?![a-qs-z])/g
+    const exp = /(?:[0-9\-]|r5|赤5)+p(?![a-qs-z])/g
     text = text.replace(exp, (match) => {
       match = match.replace(/p/g, '')
       match = match.replace(/0|r5|赤5/g, '0')
@@ -57,7 +57,7 @@
   }
   /** mpsz表記(半角)の索子をsvgに置き換える */
   const _replaceEnMpszSouzuExp = (text) => {
-    const exp = /(?:[0-9]|r5|赤5)+s(?![a-qs-z])/g
+    const exp = /(?:[0-9\-]|r5|赤5)+s(?![a-qs-z])/g
     text = text.replace(exp, (match) => {
       match = match.replace(/s/g, '')
       match = match.replace(/0|r5|赤5/g, '0')
@@ -70,7 +70,7 @@
   }
   /** mpsz表記(半角)の字牌をsvgに置き換える */
   const _replaceEnMpszZihaiExp = (text) => {
-    const exp = /[1-7]+z(?![a-qs-z])/g
+    const exp = /[1-7\-]+z(?![a-qs-z])/g
     text = text.replace(exp, (match) => {
       match = match.replace(/z/g, '')
       match = match.replace(/[0-9]/g, (tile) => {
@@ -83,7 +83,7 @@
 
   /** mpsz表記(全角)の萬子をsvgに置き換える */
   const _replaceEmMpszManzuExp = (text) => {
-    const exp = /(?:[０-９]|ｒ５|赤５)+ｍ(?![ａ-ｑｓ-ｚ])/g
+    const exp = /(?:[０-９－ー\-]|ｒ５|赤５)+ｍ(?![ａ-ｑｓ-ｚ])/g
     text = text.replace(exp, (match) => {
       match = match.replace(/ｍ/g, '')
       match = match.replace(/０|ｒ５|赤５/g, '０')
@@ -96,7 +96,7 @@
   }
   /** mpsz表記(全角)の筒子をsvgに置き換える */
   const _replaceEmMpszPinzuExp = (text) => {
-    const exp = /(?:[０-９]|ｒ５|赤５)+ｐ(?![ａ-ｑｓ-ｚ])/g
+    const exp = /(?:[０-９－ー\-]|ｒ５|赤５)+ｐ(?![ａ-ｑｓ-ｚ])/g
     text = text.replace(exp, (match) => {
       match = match.replace(/ｐ/g, '')
       match = match.replace(/０|ｒ５|赤５/g, '０')
@@ -109,7 +109,7 @@
   }
   /** mpsz表記(全角)の索子をsvgに置き換える */
   const _replaceEmMpszSouzuExp = (text) => {
-    const exp = /(?:[０-９]|ｒ５|赤５)+ｓ(?![ａ-ｑｓ-ｚ])/g
+    const exp = /(?:[０-９－ー\-]|ｒ５|赤５)+ｓ(?![ａ-ｑｓ-ｚ])/g
     text = text.replace(exp, (match) => {
       match = match.replace(/ｓ/g, '')
       match = match.replace(/０|ｒ５|赤５/g, '０')
@@ -122,7 +122,7 @@
   }
   /** mpsz表記(全角)の字牌をsvgに置き換える */
   const _replaceEmMpszZihaiExp = (text) => {
-    const exp = /(?:[１-７])+ｚ(?![ａ-ｑｓ-ｚ])/g
+    const exp = /(?:[１-７－ー\-])+ｚ(?![ａ-ｑｓ-ｚ])/g
     text = text.replace(exp, (match) => {
       match = match.replace(/ｚ/g, '')
       match = match.replace(/[０-９]/g, (tile) => {
@@ -135,7 +135,7 @@
 
   /** 採譜記号表記(全角)の字牌をsvgに置き換える */
   const _replaceEmSymbolZihaiExp = (text) => {
-    const exp = /[東南西北白發中発]+/g
+    const exp = /[東南西北白發中発－ー\-]+/g
     text = text.replace(exp, (match) => {
       match = match.replace(/發|発/g, '發')
       match = match.replace(/[東南西北白發中]/g, (tile) => {
