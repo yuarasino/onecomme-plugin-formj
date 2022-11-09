@@ -135,8 +135,9 @@
 
   /** 採譜記号表記(全角)の字牌をsvgに置き換える */
   const _replaceEmSymbolZihaiExp = (text) => {
-    const exp = /[東南西北白發中]+/g
+    const exp = /[東南西北白發中発]+/g
     text = text.replace(exp, (match) => {
+      match = match.replace(/發|発/g, '發')
       match = match.replace(/[東南西北白發中]/g, (tile) => {
         return _id2svg(`z${'零東南西北白發中'.indexOf(tile)}`)
       })
