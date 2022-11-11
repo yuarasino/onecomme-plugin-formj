@@ -15,9 +15,9 @@
 ## 2. テンプレートフォルダにDLしたテンプレートをコピーする
 
 以下のテンプレートをDLして解凍する。  
-[basic4mj-v1.1.1.zip](https://github.com/yuarasino/onecomme-plugin-formj/releases/download/v1.1.1/basic4mj-v1.1.1.zip)
+[basic4mj-v1.2.0.zip](https://github.com/yuarasino/onecomme-plugin-formj/releases/download/v1.2.0/basic4mj-v1.2.0.zip)
 
-「basic4mj-v1.1.1」の中にある **「basic4mj」** フォルダをテンプレートフォルダにコピーする。
+「basic4mj-v1.2.0」の中にある **「basic4mj」** フォルダをテンプレートフォルダにコピーする。
 
 ![](./images/usage2.png)
 

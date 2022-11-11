@@ -19,9 +19,9 @@
 ## 3. 名前を変えたフォルダにDLしたプラグインをコピーする
 
 以下のプラグインをDLして解凍する。  
-[formj-v1.1.1.zip](https://github.com/yuarasino/onecomme-plugin-formj/releases/download/v1.1.1/formj-v1.1.1.zip)
+[formj-v1.2.0.zip](https://github.com/yuarasino/onecomme-plugin-formj/releases/download/v1.2.0/formj-v1.2.0.zip)
 
-「formj-v1.1.1」フォルダの中にある **「formj」フォルダ** を名前を変えたフォルダにコピーする。
+「formj-v1.2.0」フォルダの中にある **「formj」フォルダ** を名前を変えたフォルダにコピーする。
 
 ![](./images/advanced3.png)
 

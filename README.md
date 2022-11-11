@@ -24,10 +24,10 @@
 ## Download
 
 わんコメプラグイン「formj」  
-[formj-v1.1.1.zip](https://github.com/yuarasino/onecomme-plugin-formj/releases/download/v1.1.1/formj-v1.1.1.zip)
+[formj-v1.2.0.zip](https://github.com/yuarasino/onecomme-plugin-formj/releases/download/v1.2.0/formj-v1.2.0.zip)
 
 プラグイン導入済みテンプレート「basic4mj」  
-[basic4mj-v1.1.1.zip](https://github.com/yuarasino/onecomme-plugin-formj/releases/download/v1.1.1/basic4mj-v1.1.1.zip)
+[basic4mj-v1.2.0.zip](https://github.com/yuarasino/onecomme-plugin-formj/releases/download/v1.2.0/basic4mj-v1.2.0.zip)
 
 
 ## Usage: 「basic4mj」テンプレートの導入方法
