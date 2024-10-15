@@ -6,6 +6,10 @@
 ![](https://img.shields.io/github/license/yuarasino/onecomme-plugin-formj)
 ![](https://img.shields.io/youtube/channel/views/UCxUnuWTQGLw5dO_dl0oqrrg?style=social)
 
+> [!CAUTION]
+> テンプレート版の開発は終了しました。サポートも終了します。  
+> 現在はプラグイン版を開発中です。https://github.com/yuarasino/onecomme-mahjong-plugin
+
 ![](./docs/images/formj.png)
 
 
